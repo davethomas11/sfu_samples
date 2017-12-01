@@ -1,0 +1,6 @@
+/SFU_Samples.egg-info
+/dist
+/build
+
+__pycache__
+/config.py
