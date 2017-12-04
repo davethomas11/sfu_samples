@@ -1,7 +1,6 @@
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import Column, DateTime, Integer, Float
-
-Base = declarative_base()
+from sqlalchemy import Column, DateTime, Integer, Float, ForeignKey
+from models.DBModelBase import Base
 
 class WeatherSampleModel(Base):
 	__tablename__ = 'weather_sample'
